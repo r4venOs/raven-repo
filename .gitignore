@@ -4,9 +4,10 @@
 output/
 work/
 
-# Arch Linux package build files
-*.pkg.tar.zst
-*.pkg.tar.xz
+# Note: We WANT to track .pkg.tar.zst files in this repository
+# They are the actual packages we're distributing
+
+# Only ignore build directories
 pkg/
 src/
 
